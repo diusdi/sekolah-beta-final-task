@@ -19,15 +19,17 @@
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Beranda</a
-              >
+              <nuxt-link to="/" class="nav-link"> Beranda </nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Produk</a>
+              <nuxt-link to="product" class="nav-link">
+                Tentang Produk
+              </nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang Kami</a>
+              <nuxt-link to="about-us" class="nav-link">
+                Tentang Kami
+              </nuxt-link>
             </li>
           </ul>
           <div class="d-flex">
