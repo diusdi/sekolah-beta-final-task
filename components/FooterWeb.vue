@@ -1,7 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <span class="navbar-text"> &copy; 2023 UtangMU. Dionysius Yudha Riadi. Freshgraduate dari Blitar. Ongoing Fullstack Developer </span>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-5">
+      <span class="navbar-text">
+        &copy; 2023 UtangMU. Dionysius Yudha Riadi. Freshgraduate dari Blitar.
+        Ongoing Fullstack Developer
+      </span>
+    </nav>
+  </div>
 </template>
